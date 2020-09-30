@@ -36,7 +36,7 @@ security.admin-accounts=
 ################################################################################
 # Database
 ################################################################################
-couchdb.host=localhost
+couchdb.host=0.0.0.0
 couchdb.port=5984
 couchdb.name=arsnova
 couchdb.username=admin
@@ -148,7 +148,7 @@ security.saml.keystore.store-password=arsnova
 security.saml.keystore.key-alias=saml
 security.saml.keystore.key-password=arsnova
 security.saml.user-id-attribute=uid
-security.saml.assertion-consumer-service-index=
+security.saml.assertion-consumer-service-index=1
 security.saml.max-authentication-lifetime=3600
 
 # CAS authentication
